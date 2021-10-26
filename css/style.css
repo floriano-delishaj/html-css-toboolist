@@ -21,11 +21,16 @@ nav, main {
 
 header {
     display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
     height: 70px;
-    line-height: 70px;
     width: 100%;
     font-size: 46px;
     font-weight: bold;
+}
+
+.logo, .title-logo {
+    vertical-align: middle;
 }
 
 nav {
