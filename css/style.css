@@ -56,8 +56,7 @@ nav {
 }
 
 main {
-    height: 700px;
-    vertical-align: super;
+    height: 750px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
