@@ -6,6 +6,7 @@
 
 body {
     background: #E5E7E9;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, nav,main {
@@ -14,6 +15,8 @@ header, nav,main {
 
 nav, main {
     padding-left: 50px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 header {
@@ -27,13 +30,11 @@ header {
 
 nav {
     margin-top: 50px;
-    margin: 0 auto;
     padding-top: 10px;
-    width: 1600px;
     height: 50px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px;
+    margin-bottom: 3px;
 }
 
 .button {
@@ -52,4 +53,95 @@ nav {
 .section {
     border: 1px #CACFD2 solid;
     color: #CACFD2;
+}
+
+main {
+    height: 700px;
+    vertical-align: super;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title-section {
+    padding-top: 35px;
+    font-size: 26px;
+}
+
+.title-section::before {
+    content: "\2BC6 ";
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+li {
+    padding-bottom: 25px;
+}
+
+.check {
+
+
+    padding: 3px 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.done::before {
+    content: "\1F5F8";
+}
+
+.done {
+    border: 1px solid #2ECC71;   
+    color: #2ECC71; 
+}
+
+.not-done::before {
+    content: "\2718";
+    font-weight: lighter;
+}
+
+.not-done{
+    border: 1px solid #E74C3C;
+    color: #E74C3C;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;
+    padding: 6px 12px;
+    margin-left: 6px;
+    border-radius: 12px;
+    color: whitesmoke
+}
+
+.editorial {
+    background: #3498DB;
+}
+
+.q1 {
+    background: #8E44AD;
+}
+
+.recruiting {
+    background: #52BE80;
+}
+
+.mobile {
+    background: #EB984E;
+}
+
+.website {
+    background: #FA7BBD;
+}
+
+.sales {
+    background: #B1E94B;
 }
